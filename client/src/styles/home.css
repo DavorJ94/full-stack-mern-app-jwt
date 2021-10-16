@@ -1,0 +1,55 @@
+.title,
+.subtitle,
+.note {
+  font-family: "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  margin: 0.75em auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 0.7em;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-bottom: 3em;
+}
+
+.link-list {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.link-button {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 1em 0;
+  background-color: transparent;
+  border: 2px solid rgba(235, 164, 11, 0.8);
+  margin: 0 auto;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1em;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-button:hover {
+  background-color: rgba(235, 164, 11, 0.8);
+  color: black;
+}
